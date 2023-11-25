@@ -1,0 +1,15 @@
+.cardcomp42{
+    border-radius: 0.75rem;
+    padding: 1vh 1.5vh 1vh 1vw;
+    background-color: whitesmoke;
+    width: max-content;
+    height: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt_class{
+    font-size: 1.9vh;
+    font-weight: 500;
+    color: rgb(15, 15, 110);
+}

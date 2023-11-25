@@ -1,0 +1,85 @@
+.cardComponent4-1_container{
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.top_section{
+    margin: 1vh 0 1.5vh 1.4vw;
+}
+.top_desc1{
+    font-size: 2.4vh;
+    font-weight: bold;
+    color: rgb(245, 93, 38);
+}
+.middle_section{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 0 1.5vh 1.4vw;
+}
+
+.txt_2{
+    font-size: 1.6vh;
+    font-weight: 500;
+    color: rgb(20, 20, 154);
+}
+
+.bottom_section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bottom_section_left{
+    margin: 1vh 0 1.5vh 1.4vw;
+    display: flex;
+
+
+
+}
+.first_part{    
+    padding: 0.8vh;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 8, 77);
+}
+.first_part_desc{
+    color: white;
+    font-size: 1.3vh;
+}
+.price{
+    font-size: 2vh;
+    font-weight: bold;
+    color: gold;
+}
+.second_part{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vh;
+}
+.coupon_desc{
+    font-weight: 1.3vh;
+    color: rgb(13, 13, 126);
+}
+.coupon{
+    font-size:2.2vh;
+    font-weight: bold;
+    color: rgb(245, 93, 38);
+}
+.bottom_section_right{
+    margin: 1vh 1vh 0 0;
+    
+}
+.buy_btn{
+    margin-right: 1.4vw;
+    padding: 1.2vh;
+    font-size: 1.7vh;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(245, 93, 38);
+    color: white;
+}

@@ -1,0 +1,28 @@
+.studymaterial{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    background-color: white;
+    padding: 2vh 0;
+}
+.studymaterial_container{
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0x 0 10vh 0;
+    
+}
+ .top6{
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 2vh 0 5vh 0; 
+ }
+
+.bottom_content6{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

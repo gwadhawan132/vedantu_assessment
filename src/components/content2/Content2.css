@@ -1,0 +1,53 @@
+.content2{
+    display: flex;
+    justify-content: center;
+}
+.content2_container{
+    border-radius: 10px;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);    
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px 0px 10vh 0px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+}
+.top_part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.top_left2{
+    margin-top: 3vh;
+
+    color: white;
+}
+.topleftupper{
+    font-size: 3vh;
+    font-weight: 400;
+}
+.topleftbottom{
+    font-size: 4.5vh;
+    font-weight: bold;
+}
+.top_right2{
+    margin-top: 3vh;
+}
+.explore_button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+}
+.bottom_part2{
+margin-top: 7vh;
+}
+.bottom_cards2{
+    
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,49 @@
+.cardcomp5_container{
+    border: 1px solid rgb(181, 177, 177);
+    border-radius: 5%;
+    width: max-content;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+.cardcomp5_container:hover{
+
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.7);
+}
+.top_part5{
+    height: max-content;
+    
+}
+.bottom_part5{
+    margin: 1vh 0 2.5vh 1vw;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.8vh;
+}
+.subject5{
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: rgb(206, 75, 206);
+    
+}
+
+.subject_desc{
+    width: 16vw;
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.teacher_name{
+    font-weight: 500;
+    font-size: 1.5vh;
+    color: gray;
+    margin-bottom: 1vh;
+}
+.join_btn5{
+    color: white;
+    background-color: rgb(245, 93, 38);
+    border: none;
+    border-radius: 7px;
+    padding: 1vh;
+    height: 3.8vh;
+    width: max-content;
+}

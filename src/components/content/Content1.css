@@ -1,0 +1,18 @@
+.content1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.content1_container{
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 0 6vh 0;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}

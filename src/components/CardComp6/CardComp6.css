@@ -1,0 +1,43 @@
+.cardComp6{
+    border-radius: 5%;
+    width: 11vw;
+    height: 26vh;
+    padding: 2vh;
+    background-image:linear-gradient(180deg,#00fff0,#3d6cb9) ;
+    position: relative;
+}
+.cardcomp_container5{
+    display: flex;
+    flex-direction: column;
+}
+.top6{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.txt6{
+    height: 5.2vh;
+    font-size: 2.6vh;
+    font-weight: bold;
+    
+}
+.text6_bottom{
+    margin-top: 1vh;
+    font-size: 1.7vh;
+    font-weight: 400;
+    
+}
+.bottom6_card{
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+    top: -3vh;
+}
+.images_6{
+    border: 0.30rem solid white;
+    width: 6vw;
+    height: 12vh;
+    border-radius: 50%;
+    object-fit: cover;
+}

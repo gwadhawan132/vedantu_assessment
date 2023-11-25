@@ -1,0 +1,27 @@
+.teachers{
+        display: flex;
+        justify-content: center;
+        margin-top: 8vh;
+        background-color: black;
+    }
+
+.teachers_container{
+        display: flex;
+        flex-direction: column ;
+        width: 100%;
+        max-width: 1024px;
+}
+.teacher_top{
+        color: rgb(244, 90, 34);
+        font-size: 4vh;
+        font-weight: 500;
+
+}
+.teachers_bottom{
+       
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-between;
+        margin: 0px 0px 10vh 0px;
+         
+}

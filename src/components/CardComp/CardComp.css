@@ -1,0 +1,45 @@
+.card_container{
+    background-color: #ee4aad;
+background-image: linear-gradient(225deg, #ee4aad 0%, #a874d8 50%, #7bb9ea 100%);
+    max-width:17vw;
+    width: 17vw;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.class{
+    margin:1vh 0 0 1vw ;
+    font-size: 1.6vh;
+    color: white;
+}
+.course_name{
+    color: black;
+    font-size:2vh;
+    font-weight: 450;
+    margin: 1vh 0 0 1vw;
+}
+.course_objectives1{
+    display: flex;
+    flex-direction: column;
+}
+.course_objective1{
+    border: 0.25px solid white;
+    font-size: 1.6vh;
+    color: r;
+    padding: 1vh;
+    width: max-content;
+    margin: 1vh 1vw;
+    border-radius: 10px;
+}
+.explore_btn1{
+    background-color: rgb(245, 137, 98);
+    color: white;
+    width: max-content;
+    border: none;
+    padding: 1vh;
+    border-radius: 1rem;
+    margin: 1vh 0 1vh 1vw;
+}
+
