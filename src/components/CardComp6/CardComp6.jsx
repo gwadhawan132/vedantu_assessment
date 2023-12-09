@@ -1,7 +1,7 @@
 import React from 'react'
 import './CardComp6.css'
 
-export default function CardComp6(items) {
+export default function CardComp6({items}) {
   return (
     <div className='cardComp6'>
     <div className="cardcomp_container5">

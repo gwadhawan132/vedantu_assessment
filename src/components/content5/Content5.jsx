@@ -1,6 +1,7 @@
 import React from 'react'
 import './Content5.css'
 import CardComp5 from '../CardComp5/CardComp5'
+import { class_details } from '../../Data'
 
 
 export default function Content5() {
@@ -16,25 +17,10 @@ export default function Content5() {
         </div>
     </div>
     <div className="bottom5">
-      <CardComp5 
-        subject="chemistry"
-        description="Mega boards on characteristics of chemical reactions"
-        teacher="by Divyasha sidana"
-        img="./images/teacher1.png"
-      />
-      <CardComp5 
-        subject="Mathematics"
-        description="Introduction to trigonometry master class"
-        teacher="by Shivanshu Atrey"
-        img="./images/teacher2.png"
-
-      />
-      <CardComp5 
-        subject="Mathematics"
-        description="Best approach to classification- general mental ability test"
-        teacher="by Sahil bhatia"
-        img="./images/teacher3.png"
-      />
+    {class_details.map(class_detail=>{
+      return  <CardComp5 key={class_detail.id} items={class_detail}/>
+    })}
+     
       </div>
       </div>
     </div>

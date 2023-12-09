@@ -1,6 +1,6 @@
 import React from 'react'
 import './TeacherCard.css'
-export default function TeacherCard(items) {
+export default function TeacherCard({items}) {
   return (
     <div className='teacherCard'>
     <div className="teachercard_container1">

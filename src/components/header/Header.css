@@ -43,3 +43,31 @@
     font-size: 18px;
 }
 
+ 
+@media screen and (max-width:600px) {
+    .header{
+    }
+
+    .header_container{
+        width: 100%;
+    }
+    .enrol_btn{
+        font-size: 1.4vh;
+        width: 23.5vw;
+        height: 4vh;
+
+    }
+    .first_line{
+        font-size: 2.3vh;
+        color: yellow;
+        font-weight: 500;
+        margin: 2vh 0;
+    }
+    .second_line{
+        color: white;
+        font-size: 1.9vh;
+        font-weight: bold;
+    }
+
+
+}

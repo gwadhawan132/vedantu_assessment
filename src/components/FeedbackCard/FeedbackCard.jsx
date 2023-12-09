@@ -1,7 +1,7 @@
 import React from 'react'
 import './FeedbackCard.css'
 
-export default function FeedbackCard(items) {
+export default function FeedbackCard({items}) {
   return (
     <div className='feedbackcard'>
       <div className="feedbackcard_container">
