@@ -11,7 +11,6 @@ export default function Studymaterial() {
       Study Materials
     </div>
     <div className="bottom_content6">
-
     {study_material.map(material=>{
       return<CardComp6 key={material.id} items={material}/>
     })}
