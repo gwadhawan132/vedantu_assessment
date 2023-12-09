@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     height: 36vh;
-    margin: 0 0 5vh 0;
+    margin: 0 0 6vh 0;
     background-color: rgb(250, 248, 248);
 
 }
@@ -56,4 +56,82 @@
 .right_img1{
     height: 34vh;
     width: 18vw;
+}
+
+
+
+/* mobile */
+@media screen and (max-width:600px){
+    .content3{
+        display: flex;
+        justify-content: center;
+        height: 56vh;
+    
+    }
+    .content3_container{
+        border-radius: 10px;
+        width: 100%;
+        max-width: 1024px;
+        height: 56vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        background-color: rgb(250, 248, 248);
+    }
+    .left{
+        background-color: rgb(225, 222, 222);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin:1vh 3vw;
+    }
+    .left_top{
+        font-size: 3vh;
+        font-weight: 500;
+        color: rgb(11, 11, 113);
+    }
+    .top_txt{
+        font-size: 3vh;
+        color: orangered;
+    }
+    .Bottom_txt{
+        font-size: 1.8vh;
+        font-weight: 350;
+    }
+    .book_btn{
+        margin-top: 3vh;
+        width: 46vw;
+        height: 3.5vh;
+    
+    }
+    .right{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        
+        
+    }
+    .right_img1{
+        margin: 0 auto;
+        height: 30vh;
+        width: 58vw;
+    }
+    
+}
+
+/* ipad */
+@media screen and (max-width:1024px) and (min-width:600px){
+    .right{
+        height: 100%;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .right_img1{
+        height: 24vh;
+        width: 28vw;
+    }
+    
 }

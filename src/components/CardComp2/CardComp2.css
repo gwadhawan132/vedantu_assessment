@@ -19,26 +19,30 @@
     font-weight: 450;
     margin: 1vh 0 0 1vw;
 }
-.course_objectives{
-    display: flex;
-    flex-direction: column;
-}
-.course_objective{
-    border: 0.25px solid gray;
-    font-size: 15px;
-    color: rgb(252, 134, 8);
-    padding: 5px;
-    width: max-content;
-    margin: 1vh 1vw;
-    border-radius: 10px;
-}
-.explore_btn{
-    background-color: rgb(245, 137, 98);
-    color: white;
-    width: max-content;
-    border: none;
-    padding: 8px;
-    border-radius: 15px;
-    margin: 0 0 1vh 1vw;
+
+
+/* mobile */
+@media screen and (max-width:600px){
+    .card2_container{
+        width:29vw;
+    }
+    .classes{
+        margin:1vh 0 0 3vw ;
+        
+        color: blueviolet;
+    }
+    .duration{
+        margin: 1vh 0 0 3vw;
+    }
+
 }
 
+
+/* ipad */
+@media screen and (max-width:1024px) and (min-width:600px){
+    .card2_container{
+        width:14vw;
+        height: 10vh;
+       
+    }
+}
