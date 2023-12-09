@@ -13,3 +13,37 @@
     font-weight: 500;
     color: rgb(15, 15, 110);
 }
+
+
+
+/* mobile */
+@media screen and (max-width:600px){
+    .cardcomp42{
+        border-radius: 7px;
+        padding: 1vh 1.5vh 1vh 1vw;
+        background-color: whitesmoke;
+        width:12vw;
+        height: 2vh;
+    }
+    .txt_class{
+        width: 100%;
+        font-size: 1.2vh;
+    }
+}
+
+
+/* ipad */
+@media screen and (max-width:1024px) and (min-width:600px){
+    .cardcomp42{
+        padding: 1vh 1.5vh 1vh 1vw;
+        width:14vw;
+        height: 1.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .txt_class{
+        width: 100%;
+        font-size: 1.6vh;
+    }
+}

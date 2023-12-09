@@ -83,3 +83,113 @@
     background-color: rgb(245, 93, 38);
     color: white;
 }
+
+@media screen and (max-width:600px){
+
+    .cardComponent4-1_container{
+        width: 55vw;
+        margin:1vh 0 ;
+    }
+    .top_desc1{
+        font-size: 2vh;
+    }
+    .middle_section{
+        margin: 0.5vh 0 1.5vh 1.4vw;
+    }
+    
+    .txt_2{
+        font-size: 1.4vh;
+    }
+
+    .bottom_section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
+    .bottom_section_left{
+        justify-content: center;
+        margin: 1vh 0 0 0;
+        display: flex; 
+    }
+    .first_part{
+        width: 17vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .first_part_desc{
+        font-size: 1.4vh;
+    }
+    .price{
+        font-size: 1.8vh;
+    }
+    .coupon_desc{
+        font-size: 1.4vh;
+    }
+    .bottom_section_right{
+        margin: 1vh 0 0 0;
+        
+    }
+    .buy_btn{
+        padding: 1.2vh;
+        font-size: 1.7vh;
+        width: 100%;
+    }
+    
+}
+
+/* ipad */
+@media screen and (max-width:1024px) and (min-width:600px){
+
+    .cardComponent4-1_container{
+        width: 35vw;
+        margin:1vh 0;
+    }
+    .top_desc1{
+        font-size: 2vh;
+    }
+    .middle_section{
+        margin: 0.5vh 0 1.5vh 1.4vw;
+    }
+    
+    .txt_2{
+        font-size: 1.4vh;
+    }
+
+    .bottom_section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
+    .bottom_section_left{
+        justify-content: center;
+        margin: 1vh 0 0 0;
+        display: flex; 
+    }
+    .first_part{
+        width: 17vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .first_part_desc{
+        font-size: 1.4vh;
+    }
+    .price{
+        font-size: 1.8vh;
+    }
+    .coupon_desc{
+        font-size: 1.4vh;
+    }
+    .bottom_section_right{
+        margin: 1vh 0 0 0;
+        
+    }
+    .buy_btn{
+        padding: 1.2vh;
+        font-size: 1.7vh;
+        width: 100%;
+    }
+    
+}
+

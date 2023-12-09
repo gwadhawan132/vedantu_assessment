@@ -53,3 +53,117 @@ background-color: black;
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+/* mobile */
+
+@media screen and (max-width:600px){
+    .content4{
+        display: flex;
+        justify-content: center;
+        padding: 2vh 0;
+    }
+    .content4_container{
+        background-color: black;
+        border-radius: 10px;    
+        flex-direction: column;
+        width: 100%;
+        max-width: 1024px;
+        margin: 0px 0px 100px 0px;
+        height: 85vh;
+        display: flex;
+    }
+    .top{
+    background-color: black;
+    }
+    .top_desc{
+        padding: 1vh;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.4vh;
+    }
+    .bottom{
+        background-color: black;
+        display: flex;
+        padding-top: 2vh;
+        flex-direction: column;
+    }
+    .txt_top1{
+        font-size: 4vh;
+        font-weight: bold;
+        color:rgb(245, 93, 38);
+    }
+    .top_cards{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+
+    }
+    .bottom_desc{    
+        font-size: 4vh;
+        font-weight: bold;
+        margin-bottom: 1vh;
+        color:rgb(245, 93, 38);
+        display: flex;
+        justify-content: center;
+    }
+    .bottom_cards{
+        margin: 0 auto;
+        width: 70%;
+        background-color: black;
+        margin-top: 1.5vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
+
+/* ipad */
+@media screen and (max-width:1024px) and (min-width:600px){
+
+    .content4{
+        display: flex;
+        justify-content: center;
+        padding: 2vh 0;
+    }
+    .content4_container{
+        height: 55vh;
+    }
+    .bottom{
+        background-color: black;
+        display: flex;
+        padding-top: 2vh;
+        flex-direction: column;
+    }
+    .txt_top1{
+        font-size: 4vh;
+        font-weight: bold;
+        color:rgb(245, 93, 38);
+    }
+    .top_cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .bottom_desc{    
+        font-size: 4vh;
+        font-weight: bold;
+        margin-bottom: 1vh;
+        color:rgb(245, 93, 38);
+        display: flex;
+        justify-content: center;
+    }
+    .bottom_cards{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, auto);
+
+    }
+}
