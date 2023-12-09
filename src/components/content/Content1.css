@@ -16,3 +16,54 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* for mobile */
+@media screen and (max-width:600px) {
+    .content1{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .content1_container{
+        border-radius: 1rem;
+        width: 100%;
+        max-width: 1024px;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin: 1vh auto;
+
+    }
+    .card{
+        margin: 1vh 0;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:600px){
+    .content1{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .content1_container{
+        border-radius: 1rem;
+        width: 100%;
+        max-width: 1024px;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    .card{
+        margin: 1vh 0;
+    }
+}
