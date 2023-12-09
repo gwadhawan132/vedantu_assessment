@@ -34,3 +34,48 @@
     flex-direction: row;
    justify-content: space-between;
 }
+
+
+/* mobile */
+@media screen and (max-width:600px){
+    .content5{
+        display: flex;
+        justify-content: center;
+        padding: 2vh 0;
+        background-color: white;
+    }
+    .content5_container{
+        border-radius: 10px;    
+        flex-direction: column;
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 0 5vh 0;
+        height: 150vh;
+        display: flex;
+    }
+    .top5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin:3vh 0 3vh 0 ;
+    }
+    .top_left5{
+        font-size: 3vh;
+        font-weight: 700;
+    }
+    .top_right5{
+        height:1.9vh;
+        font-size: 2vh;
+    }
+    
+    .bottom5{
+        margin: 2vh auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* ipad*/
+
+@media screen and (max-width:1024px) and (min-width:600px){
+
+}

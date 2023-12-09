@@ -6,7 +6,7 @@ export default function CardComp5({items}) {
     <div className='cardcomp5'>
     <div className="cardcomp5_container">
         <div className="top_part5">
-            <img src={items.img} alt="" />
+            <img classname="top_part5_img"src={items.img} alt="" />
         </div>
         <div className="bottom_part5">
             <span className="subject5">
@@ -15,7 +15,9 @@ export default function CardComp5({items}) {
             <span className="subject_desc">{items.description}</span>
             <span className="teacher_name">{items.teacher}</span>
             <button className="join_btn5">Join Now</button>
-        </div>
+        </div>     
+         
+
     </div>      
     </div>
   )
