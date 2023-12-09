@@ -69,3 +69,118 @@
     border-radius: 50%;
 }
 .result_bottom{}
+
+
+
+/* mobile */
+@media screen and (max-width:600px){
+
+    .result{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        background-color: white;
+    }
+    .result_container{
+        flex-direction: column;
+        width: 100%;
+        max-width: 1024px;
+        margin: 0px 0px 5vh 0px;
+        
+    }
+    .result_top{
+        
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .result_top_left{
+        padding: 1vh;
+        border-radius: 7px;
+        background-color: rgb(242, 239, 239);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .result_txt1{
+        height: 4vh;
+        font-size: 2.2vh;
+        font-weight: bold;
+    }
+    .result_txt2{
+        width: 77vw;
+        height: 7vh;
+    }
+    .result_top_lower{
+        justify-content: space-around;
+    }
+    .results_btn1{
+        height: 5vh;
+        width: 28vw;
+        font-size: 1.8vh;
+        font-weight: 400;
+    }
+    .results_btn2{
+        height: 5vh;
+        width: 28vw;
+        font-size: 1.8vh;
+        font-weight: 400;
+    }
+    .result_top_right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .result_img{
+        object-fit: contain;
+        border-radius: 50%;
+        height: 25vh;
+    }
+    .result_bottom{}
+    
+
+}
+/* ipad */
+@media screen and (max-width:1024px) and (min-width:600px){
+    .result_container{
+        margin: 0px 0px 5vh 0px;
+        
+    }
+    .result_top{
+        padding: 1vh;
+    }
+    .result_top_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .result_txt1{
+        height: 4vh;
+        font-size: 2.6vh;
+        font-weight: bold;
+    }
+    
+    .result_txt2{
+        font-size: 1.8vh;
+        width: 37vw;
+        height: 8vh;
+    }
+    .result_top_lower{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .results_btn1{
+        height: 4.5vh;
+        width: 17vw;
+        border-radius: 7px;
+    }
+    .results_btn2{
+        height: 4.5vh;
+        width: 17vw;
+        border-radius: 7px;
+    }
+    
+    .result_bottom{}
+    
+
+}

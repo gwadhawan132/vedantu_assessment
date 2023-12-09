@@ -27,3 +27,66 @@
     background-color: rgb(17, 17, 99);
     margin-bottom: 1vh;
 }
+
+
+@media screen and (max-width:600px){
+    .studentcard_container{
+        padding:1vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .student_img{
+
+        border-radius: 50%;
+        width: 10vw;
+        height: 7vh;
+    }
+    .student_name{
+        margin-top: 1vh;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 2vh;
+    }
+    .student_rank{
+        font-size: 1.5vh;
+        padding: 0.5vh;
+        height: 2.5vh;
+    }
+    
+    
+}
+
+@media screen and (max-width:1024px) and (min-width:600px){
+
+    .studentcard_container{
+        padding:1vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .student_img{
+
+        border-radius: 50%;
+        width: 13vw;
+        height: 9vh;
+    }
+    .student_name{
+        margin-top: 1vh;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 2.8vh;
+    }
+    .student_rank{
+        font-size: 2vh;
+        padding: 0.5vh;
+        height: 2.5vh;
+    }
+    
+}
