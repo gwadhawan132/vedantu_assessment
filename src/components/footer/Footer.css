@@ -54,3 +54,107 @@
     height: 35vh;
     width:14vw;
 }
+
+@media screen and (max-width:600px){
+    .footer{
+        margin-top: 5vh;
+    }
+    .footer_container{
+        height: 35vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_top_left{
+        margin:3vh 0 0 2.5vw ;
+    }
+    .footer_top_left_first{
+        font-size: 3vh;
+    
+    }
+    .footer_txt2{
+        margin: 2vh 0;
+        font-size: 1.6vh;
+        font-weight: 400;
+        width: 50vw;
+        
+    }
+    .playstore_btn{
+        display: flex;
+        width: 16vw;
+        height: 2vh;
+    }
+    .playstore_left{
+        width: 3.5vw;
+    }
+    .playstore_img{
+        height: 2vh;
+        width: 3vw;
+    }
+    .playstore_right{
+        padding-left: 1vw;
+        font-size: 1.4vh;
+        display: flex;
+        align-items: center;
+    }
+    .footer_top_right{
+        display: flex;
+        align-items:flex-end;
+    } 
+    .footer_top_right_img{
+        height: 25vh;
+        width:24vw;
+    }
+
+}
+
+@media screen and (max-width:1024px) and (min-width:600px){
+
+    .footer{
+        margin-top: 5vh;
+    }
+    .footer_container{
+        height: 35vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_top_left{
+        margin:3vh 0 0 2.5vw ;
+    }
+    .footer_top_left_first{
+        font-size: 3vh;
+    
+    }
+    .footer_txt2{
+        margin: 2vh 0;
+        font-size: 1.6vh;
+        font-weight: 400;
+        width: 50vw;
+        
+    }
+    .playstore_btn{
+        display: flex;
+        width: 16vw;
+        height: 2vh;
+    }
+    .playstore_left{
+        width: 3.5vw;
+    }
+    .playstore_img{
+        height: 2vh;
+        width: 3vw;
+    }
+    .playstore_right{
+        padding-left: 1vw;
+        font-size: 1.4vh;
+        display: flex;
+        align-items: center;
+    }
+    .footer_top_right{
+        display: flex;
+        align-items:flex-end;
+    } 
+    .footer_top_right_img{
+        height: 35vh;
+        width:30vw;
+    }
+}
