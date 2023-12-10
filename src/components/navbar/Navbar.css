@@ -1,6 +1,5 @@
 .navbar{
-    
-    display: flex;
+   display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
@@ -77,8 +76,180 @@ flex: 2;
     border-radius: 10px;
     font-size: 16px;
 }
+.hamburger_menu{
+    display: none;
+ }
+ .hamburger_menu_container{
+    display: none;
+ }
+
 
 @media screen and (max-width:600px) {
     .navbar{
-    }
+        display: flex;
+         flex-direction: column;
+         align-items: center;
+         background-color: white;
+         
+     
+     }
+     .container{
+         width: 80%;
+         display: flex;
+         justify-content: space-between;
+         padding: 20px;
+         align-content: flex-start;
+     
+     }
+     .logo{
+     flex: 2;
+         
+     
+     }
+     .options{
+        display: none;
+     }
+     .option{
+         font-size: 14px;
+         font-weight: 500;
+     }
+     .courses_bar{
+        display: none;
+     
+     }
+     .contact_info{
+         flex: 2.5;
+         
+     }
+     .contact{
+        display: none;     
+     }
+     .contact_description{
+      display: none;
+     
+     }
+     .contact_number{
+        display: none;
+     }
+     .signin_button{
+        display: none;
+     }
+     .signin{
+         height: 2vw;
+         width: 12vh;
+         border: 1px solid rgb(243, 238, 238);
+         border-radius: 10px;
+         font-size: 16px;
+     }
+     
+     .hamburger_menu{
+        display: block;
+     }
+     .hamburger_icon{
+        height: 5vh;
+        width: 6vw;
+     }
+     .hamburger_menu_container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+         align-items: center;
+}
+     .hamburger_menu_items{
+        
+        display: flex;
+        flex-direction: column;
+     }
+     .hamburger_menu_item{
+        width: 80vw;
+        margin: 1vh 0;
+        border-bottom: 1px solid gray;
+        
+     }
+     .icon{
+        height: 1.5vh;
+        width: 5vw;
+     }
+
+}
+@media screen and (max-width:1024px) and (min-width:600px){
+    .navbar{
+        display: flex;
+         flex-direction: column;
+         align-items: center;
+         background-color: white;
+         
+     
+     }
+     .container{
+         width: 80%;
+         display: flex;
+         justify-content: space-between;
+         padding: 20px;
+         align-content: flex-start;
+     }
+     .options{
+        display: none;
+     }
+     .courses_bar{
+      display: none;
+     
+     }
+     .contact_info{
+         flex: 2.5;
+         
+     }
+     .contact{
+             margin-left: 30%;
+     
+     }
+     .contact_description{
+         color: gray;
+         font-size: 12px;
+     
+     }
+     .contact_number{
+         font-weight: bold;
+     }
+     .signin_button{
+         
+         flex: 2;
+     }
+     .signin{
+        margin-right: 2vw;
+         height: 3vw;
+         width: 10vh;
+         border: 1px solid rgb(243, 238, 238);
+         border-radius: 10px;
+         font-size: 16px;
+     }
+     .hamburger_menu{
+         display: block;
+      }
+      .hamburger_icon{
+        height: 2.5vh;
+        width: 5vw;
+     }
+     .hamburger_menu_container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+         align-items: center;
+}
+     .hamburger_menu_items{
+        
+        display: flex;
+        flex-direction: column;
+     }
+     .hamburger_menu_item{
+        width: 80vw;
+        margin: 1vh 0;
+        border-bottom: 1px solid gray;
+        
+     }
+     .icon{
+        height: 1.5vh;
+        width: 5vw;
+     }
+
 }
