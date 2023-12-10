@@ -30,7 +30,6 @@
 .bottom6_card{
     display: flex;
     justify-content: center;
-    
     position: relative;
     top: -3vh;
 }

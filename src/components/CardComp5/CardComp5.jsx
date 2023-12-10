@@ -6,8 +6,8 @@ export default function CardComp5({items}) {
     <div className='cardcomp5'>
     <div className="cardcomp5_container">
         <div className="top_part5">
-            <img classname="top_part5_img"src={items.img} alt="" />
-        </div>
+        <img className='top_part5_img' src={items.img} alt="" />
+         </div>
         <div className="bottom_part5">
             <span className="subject5">
                 {items.subject}
