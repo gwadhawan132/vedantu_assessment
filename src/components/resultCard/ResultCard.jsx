@@ -1,6 +1,7 @@
 import React from 'react'
 import './ResultCard.css'
 import StudentCard from './StudentCard'
+import { student_details } from '../../Data'
 
 export default function ResultCard() {
   return (
@@ -12,23 +13,9 @@ export default function ResultCard() {
         <div className="resultcard_bottom">
             <div className="resultcard_bottom_left"> 
 
-            <StudentCard 
-            img="./images/student1.png"
-            name="prakhar"
-            rank="AIR 21"
-            /> 
-
-            <StudentCard 
-            img="./images/student2.png"
-            name="Aakash"
-            rank="AIR 28"
-            /> 
-
-            <StudentCard 
-            img="./images/student3.png"
-            name="aditi"
-            rank="AIR 104"
-            /> 
+          { student_details.map((stdnt)=>{
+            return <StudentCard items={stdnt}/>
+          }) }
              </div>
             <div className="resultcard_bottom_right">
                 <img src="./images/result.png" alt="" className="resultcard_img" />

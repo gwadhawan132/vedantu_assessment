@@ -94,3 +94,19 @@ export const class_details=[
         img:"./images/teacher3.png",
     },
 ]
+export const student_details=[
+    {
+        img:"./images/student1.png",
+        name:"Prakhar",
+        rank:"AIR 21",
+    },
+    {
+        img:"./images/student2.png",
+        name:"Aakash",
+        rank:"AIR 28",
+    },{
+        img:"./images/student3.png",
+        name:"Aditi",
+        rank:"AIR 104",
+    },
+]
