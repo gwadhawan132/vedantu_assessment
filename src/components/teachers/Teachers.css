@@ -25,3 +25,38 @@
         margin: 0px 0px 10vh 0px;
          
 }
+
+@media screen and (max-width:600px){
+   
+        
+        .teachers_container{
+                padding: 1vh;
+        }
+        
+        .teachers_bottom{
+                flex-direction: column ;
+                margin: 1vh auto;
+                 
+        }
+        
+}
+
+@media screen and (max-width:1024px) and (min-width:600px){
+       
+        .teacher_top{
+                padding: 2vh;
+
+}
+        
+        .teachers_bottom{
+                padding: 2vh;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+                   
+
+                 
+        }
+
+}

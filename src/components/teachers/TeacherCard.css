@@ -6,7 +6,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
     border: 1px solid black;
-    border-radius: 7px;
+    border-radius: 8px;
     width: 13vw;
     height: 39vh;
     display: flex;
@@ -69,3 +69,66 @@
     margin: 0 auto ;
 }
 
+
+
+@media screen and (max-width:600px){
+    .teacherCard{
+        margin-top: 2vh;
+    }
+    .teachercard_container1{
+        width: 55vw;
+        height: 39vh;
+    
+    }
+    .teachercard_img12{
+        width: 28vw;
+        height:23vh;
+    }
+    .teachercard_bottom1{
+        margin: 0 auto ;
+        width: 45vw;
+        height: 16vh;
+    }
+    .teacher_experience{
+        width: 27vw;
+        font-size: 1.5vh;
+    }
+    .teacher_name1{
+        font-size: 2vh;
+    }
+    .teacher_college{
+        font-size: 2vh;
+    }
+    
+
+}
+@media screen and (max-width:1024px) and (min-width:600px){
+
+    .teacherCard{
+        margin-top: 2vh;
+    }
+    .teachercard_container1{
+        width: 35vw;
+        height: 39vh;
+    
+    }
+    .teachercard_img12{
+        width: 20vw;
+        height:20vh;
+    }
+    .teachercard_bottom1{
+        margin: 0 auto ;
+        width: 30vw;
+        height: 18vh;
+    }
+    .teacher_experience{
+        width: 25vw;
+        font-size: 1.5vh;
+    }
+    .teacher_name1{
+        font-size: 2.2vh;
+    }
+    .teacher_college{
+        font-size: 2vh;
+    }
+}
